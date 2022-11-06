@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    height: 100vh;
+}
+
+.button_bomba
+{
+    background-image: linear-gradient(
+        -120deg,
+        red 0,
+        red 10%,
+        #101 10%,
+        #101 20%,
+        red 20%,
+        red 30%,
+        #101 30%,
+        #101 40%,
+        red 40%,
+        red 50%,
+        #101 50%,
+        #101 60%,
+        red 60%,
+        red 70%,
+        #101 70%,
+        #101 80%,
+        red 80%,
+        red 90%,
+        #101 90%,
+        #101 100%
+    );
+    border: 5px solid #101;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow:  0 0 20px 6px rgba(249, 7, 7, 0.5);
+}
+
+button
+{
+    font-family: 'Audiowide';
+    color: white;
+    background-color: #000;
+    border: 2px solid rgba(252, 7, 7, 0.5);
+    font-size: 20px;
+    display: inline-block;
+    padding: 0,4em 1em;
+    font-size: 200%;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
